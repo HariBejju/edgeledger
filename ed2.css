@@ -1,0 +1,10 @@
+#nextpart .about .about-box{
+    display: flex;   
+    text-align: left;
+    /* padding-top: 80px;  */
+    /* margin: 0%; */
+}
+#nextpart .about .about-box .pic{
+    padding-top: 60px;
+    padding-left: 30px;
+}

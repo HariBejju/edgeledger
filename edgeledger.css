@@ -1,0 +1,34 @@
+#nextpart .about{
+    display: block;
+}
+
+#nextpart .about .about-box{
+    display: flex;   
+    text-align: left;
+    /* padding-top: 80px;  */
+    /* margin: 0%; */
+}
+#nextpart .about .about-box .pic{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+#nextpart .about .about-box p{
+    text-align: left;
+}
+@media(max-width:500px){
+    #navigation-bar{
+       flex-direction: column;
+       align-items: center;
+       height: 80px;
+       padding-bottom: 10px;
+    }
+   #whoweare{
+       display: block;
+   }
+   #whoweare #left{
+       display: none;
+   }
+   .contact-form{
+    width: 100%;
+}
+}
